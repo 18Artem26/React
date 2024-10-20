@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрує вміст по горизонталі */
+    margin: 20px; /* Додає відступи */
+}
+
+.form-container {
+    display: flex;
+    justify-content: center; /* Центрує форму */
+    margin-bottom: 20px; /* Відступ між формою та списком */
+}
+
+.input-text {
+    padding: 10px; /* Внутрішній відступ */
+    margin-right: 10px; /* Відступ між полем вводу та кнопкою */
+    border: 1px solid #ccc; /* Межа поля вводу */
+    border-radius: 5px; /* Кутові заокруглення */
+    width: 200px; /* Ширина поля вводу */
+}
+
+.input-submit {
+    padding: 10px 15px; /* Внутрішні відступи */
+    background-color: #06a406; /* Колір фону кнопки */
+    color: white; /* Колір тексту */
+    border: none; /* Без межі */
+    border-radius: 5px; /* Кутові заокруглення */
+    cursor: pointer; /* Курсор вказує на те, що кнопка натискається */
+}
+
+.input-submit:hover {
+    background-color: #0056b3; /* Зміна кольору кнопки при наведенні */
+}

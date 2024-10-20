@@ -1,0 +1,57 @@
+/* Загальний стиль для сторінки входу */
+.login-container {
+    display: flex; /* Використовуємо flexbox */
+    justify-content: center; /* Центруємо по горизонталі */
+    align-items: center; /* Центруємо по вертикалі */
+    height: 100vh; /* Висота вікна браузера */
+    background-color: #f0f4f8; /* Світло-сірий фон */
+}
+
+/* Форма входу */
+.login-form {
+    background-color: #fff; /* Білий фон для форми */
+    border-radius: 10px; /* Закруглені кути */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Тінь */
+    padding: 40px; /* Внутрішні відступи */
+    width: 300px; /* Ширина форми */
+    text-align: center; /* Центрування тексту */
+}
+
+/* Заголовок форми */
+.login-form h2 {
+    margin-bottom: 20px; /* Відступ знизу */
+    color: #2c3e50; /* Темно-синій заголовок */
+}
+
+/* Поля вводу */
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%; /* Ширина 100% */
+    padding: 10px; /* Внутрішні відступи */
+    margin: 10px 0; /* Відступи */
+    border: 1px solid #ccc; /* Сіра рамка */
+    border-radius: 5px; /* Закруглені кути */
+    font-size: 16px; /* Розмір шрифту */
+}
+
+/* Кнопка входу */
+.login-form button {
+    background-color: #3498db; /* Блакитний фон */
+    color: #fff; /* Білий текст */
+    border: none; /* Без рамки */
+    padding: 10px; /* Внутрішні відступи */
+    border-radius: 5px; /* Закруглені кути */
+    cursor: pointer; /* Курсор при наведенні */
+    transition: background-color 0.3s; /* Плавний перехід */
+    width: 100%; /* Ширина 100% */
+}
+
+.login-form button:hover {
+    background-color: #2980b9; /* Темніший блакитний при наведенні */
+}
+
+/* Повідомлення про помилку */
+.error-message {
+    color: red; /* Червоний текст */
+    margin-top: 10px; /* Відступ зверху */
+}

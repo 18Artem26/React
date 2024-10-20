@@ -1,0 +1,30 @@
+.form-container {
+    display: flex;                /* Використовуємо flex для вирівнювання елементів */
+    justify-content: center;      /* Центруємо форму по горизонталі */
+    align-items: center;          /* Центруємо форму по вертикалі */
+    margin: 20px;                /* Відступ з усіх сторін */
+}
+
+.input-text {
+    width: 200px;                /* Встановлюємо ширину текстового поля */
+    padding: 10px;               /* Внутрішні відступи */
+    border: 1px solid #ccc;      /* Сірий контур */
+    border-radius: 5px;          /* Закруглені кути */
+    font-size: 16px;             /* Розмір шрифту */
+}
+
+.input-submit {
+    padding: 10px 15px;          /* Внутрішні відступи */
+    margin-left: 10px;           /* Відступ між полем введення та кнопкою */
+    border: none;                /* Без контуру */
+    border-radius: 5px;          /* Закруглені кути */
+    background-color: #4CAF50;   /* Зелений фон кнопки */
+    color: white;                /* Білий текст */
+    font-size: 16px;             /* Розмір шрифту */
+    cursor: pointer;             /* Курсор при наведенні */
+    transition: background-color 0.3s; /* Анімація фону */
+}
+
+.input-submit:hover {
+    background-color: #45a049;   /* Темніший зелений при наведенні */
+}
